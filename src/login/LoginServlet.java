@@ -14,9 +14,6 @@ import javax.servlet.http.HttpSession;
 
 
 
-/**
- * Servlet implementation class LoginServlet
- */
 @WebServlet("/LoginServlet")
 public class LoginServlet extends HttpServlet {
        
@@ -31,14 +28,21 @@ public class LoginServlet extends HttpServlet {
 		
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
+		String check_code = request.getParameter("check_code1");
 		String flag = request.getParameter("flag");
-		String path="";
+		String path="index.jsp";
 			
 		try {
 			String name = loginService.login(username,password,flag);
-		//	System.out.println(name);
+			HttpSession session=request.getSession();	
+			String rands = (String) request.getSession().getAttribute("check_code");
 			if(name!=null){
-				if(flag.equals("1")){
+				if(!rands.equals(check_code)){
+					path="index.jsp";
+					request.setAttribute("msg" , "—È÷§¬Î¥ÌŒÛ£¨«Î÷ÿ ‘£°");
+					RequestDispatcher dispatchar=request.getRequestDispatcher(path);
+					dispatchar.forward(request, response);
+				} else {if(flag.equals("1")){
 					path="./admin/admin.jsp";
 				}else if(flag.equals("2")){
 					path="./zhuguan/zhuguan.jsp";
@@ -48,12 +52,12 @@ public class LoginServlet extends HttpServlet {
 				}
 				request.setAttribute("msg" , "«Î÷ÿ ‘");
 				Cookie cookie = new Cookie("username",username);
-				cookie.setMaxAge(60*60*24);
+				cookie.setMaxAge(60*60);
 				response.addCookie(cookie);			
-				HttpSession session=request.getSession();		
+					
 				session.setAttribute("name", name); 
 				session.setAttribute("username", username); 
-				response.sendRedirect(path);
+				response.sendRedirect(path);}
 			}
 			else {
 				path="index.jsp";

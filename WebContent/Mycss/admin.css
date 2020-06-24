@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+p {
+	position: relative;
+	text-align: center;
+	top: 270px;
+	font-size: 40px;
+	font-family: "fangsong";
+	font-weight: bold;
+}
+
+input[type=button] {
+	border: 0;
+	background-color: transparent;
+	outline: none;
+	height: 30px;
+	width: 300px;
+	font-size: 15px;
+	font-weight: bold;
+	
+}
+
+input[type=button]:hover {
+	background-color: #645979;
+	background: linear-gradient(to left, rgb(255, 255, 255,0), rgb(100, 89, 121,0.4), rgb(255, 255, 255,0));
+	background: -webkit-linear-gradient(to left,rgb(255, 255, 255,0), rgb(100, 89, 121,0.4), rgb(255, 255, 255,0));
+}

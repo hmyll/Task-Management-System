@@ -1,0 +1,72 @@
+@charset "UTF-8";
+.d1{
+	width:600px;
+	height:200px;
+	position: relative;
+	top:30px;
+	left:300px;
+}
+h5{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.h{
+	position: absolute;
+	top:270px;
+	left:515px;
+}
+.d2{
+	width:700px;
+	position: absolute;
+	top:310px;
+	left:250px;
+}
+
+select{
+	width: 100px;
+	border: 1px solid #ccc;
+	padding: 5px 0px;
+	padding-left: 5px;
+	border-radius: 3px;
+}
+
+.btn1{
+	width:100px;
+	height:30px;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+.btn2{
+	position: absolute;
+	top:10px;
+	right:10px;
+	width:100px;
+	height:30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

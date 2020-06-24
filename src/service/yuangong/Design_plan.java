@@ -40,7 +40,6 @@ public class Design_plan extends HttpServlet {
 		String plan_feedback = null;	
 		String task_id  = (String) request.getSession().getAttribute("task_id");
 		
-		
 		try {
 			String sql = "select count(*) from t_plan";
 			 Long  sum= runner.query(sql, new ScalarHandler<Long>());
@@ -58,7 +57,7 @@ public class Design_plan extends HttpServlet {
 	
 			Plan plan = new Plan(id, plan_name,  plan_state, feedback,  plan_begin_date,  plan_end_date,  plan_description, plan_feedback,  task_id);
 			DBUtilsDao dao = new DBUtilsDao();
-			dao.update(task_id, "实施中");
+			dao.update( "实施中",task_id);
 			boolean b = dao.insert(plan);
 			PrintWriter pw = response.getWriter();
 			request.getSession().setAttribute("id", task_id);

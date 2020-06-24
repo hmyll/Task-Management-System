@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+h5 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.p {
+	text-align: center;
+}
+
+.d1 {
+	width: 600px;
+	height: 200px;
+	position: relative;
+	top: 30px;
+	left: 300px;
+}
+
+.d2 {
+	width: 700px;
+	position: absolute;
+	top: 260px;
+	left: 200px;
+}
+
+.btn1 {
+	width: 100px;
+	height: 30px;
+	position: absolute;
+	top: 50px;
+	right: 10px;
+}
+
+.btn2 {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 100px;
+	height: 30px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}

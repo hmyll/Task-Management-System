@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+.zuobtn {
+	border: 0;
+	background-color: transparent;
+	outline: none;
+	height: 30px;
+	width: 300px;
+	font-size: 15px;
+	font-weight: bold;
+	
+}
+
+.zuobtn:hover {
+	background-color: #645979;
+	background: linear-gradient(to left, rgb(255, 255, 255,0), rgb(100, 89, 121,0.4), rgb(255, 255, 255,0));
+	background: -webkit-linear-gradient(to left,rgb(255, 255, 255,0), rgb(100, 89, 121,0.4), rgb(255, 255, 255,0));
+}
+
+.youtxt{
+	width:1100px;
+	height:620px;
+	position: relative;
+}
+
+.you1,.you2,.you3,.you4,.you5,.you6,.you7,.you8,.you9,.you10,.you11,.you12{
+	width:540px;
+	height:80px;
+	
+}
+
+.you1{
+	position: absolute;
+	top:10px;
+	left:10px;
+}
+
+.you2{
+	position: absolute;
+	top:10px;
+	left:550px;
+}
+.you3{
+	position: absolute;
+	top:90px;
+	left:10px;
+}
+.you4{
+	position: absolute;
+	top:90px;
+	left:550px;
+}
+.you5{
+	position: absolute;
+	top:170px;
+	left:10px;
+}
+.you6{
+	position: absolute;
+	top:170px;
+	left:550px;
+}
+.you7{
+	position: absolute;
+	top:250px;
+	left:10px;
+}
+.you8{
+	position: absolute;
+	top:250px;
+	left:550px;
+}
+.you9{
+	position: absolute;
+	top:330px;
+	left:10px;
+}
+.you10{
+	position: absolute;
+	top:330px;
+	left:550px;
+}
+.you11{
+	position: absolute;
+	top:410px;
+	left:10px;
+}
+.you12{
+	position: absolute;
+	top:410px;
+	left:550px;
+}
+.you13{
+	position: absolute;
+	top:490px;
+	left:300px;
+	width:400px;
+	height:50px;
+}
+input[type=text],input[type=password],select {
+	width: 200px;
+	border: 1px solid #ccc;
+	padding: 5px 0px;
+	padding-left: 5px;
+	border-radius: 3px;
+}
+.btn1{
+	width:100px;
+	height:30px;
+}
+.btn2{
+	position:absolute;
+	left:240px;
+	width:100px;
+	height:30px;
+}
+.hr1{
+	position: absolute;
+	top:50px;
+	left:10px;
+	width:1050px;
+	border:1px solid #6d6d72;
+}
+.hr2{
+	position: absolute;
+	top:130px;
+	left:10px;
+	width:1050px;
+	border:1px solid #6d6d72;
+}
+.hr3{
+	position: absolute;
+	top:210px;
+	left:10px;
+	width:1050px;
+	border:1px solid #6d6d72;
+}
+.hr4{
+	position: absolute;
+	top:290px;
+	left:10px;
+	width:1050px;
+	border:1px solid #6d6d72;
+}
+.hr5{
+	position: absolute;
+	top:370px;
+	left:10px;
+	width:1050px;
+	border:1px solid #6d6d72;
+}
+
+
+
+
+
+
+
+
+
+

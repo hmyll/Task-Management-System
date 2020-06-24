@@ -1,0 +1,57 @@
+@charset "UTF-8";
+.h{
+	position: absolute;
+	top:300px;
+	left:400px;
+	font-size: 20px;
+}
+
+.tab{
+	position: absolute;
+	width:300px;
+	top:80px;
+	left:250px;
+}
+.tab2{
+	position: absolute;
+	top:350px;
+	left:100px;
+	width:900px;
+}
+
+select{
+	width: 100px;
+	border: 1px solid #ccc;
+	padding: 5px 0px;
+	padding-left: 5px;
+	border-radius: 3px;
+}
+
+.btn{
+	position: absolute;
+	top:150px;
+	left:100px;
+	width:100px;
+	height:30px;
+}
+
+p{
+	position: absolute;
+	top:280px;
+	left:330px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

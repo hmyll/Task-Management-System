@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+.zuobtn {
+	border: 0;
+	background-color: transparent;
+	outline: none;
+	height: 30px;
+	width: 300px;
+	font-size: 15px;
+	font-weight: bold;
+	
+}
+
+.zuobtn:hover {
+	background-color: #645979;
+	background: linear-gradient(to left, rgb(255, 255, 255,0), rgb(100, 89, 121,0.4), rgb(255, 255, 255,0));
+	background: -webkit-linear-gradient(to left,rgb(255, 255, 255,0), rgb(100, 89, 121,0.4), rgb(255, 255, 255,0));
+}
+
+.tb{
+	position: relative;
+	top:50px;
+	left:100px;
+	border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
